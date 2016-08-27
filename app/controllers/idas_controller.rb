@@ -1,0 +1,2 @@
+class IdasController < ApplicationController
+end
