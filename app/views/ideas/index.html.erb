@@ -1,5 +1,11 @@
 <h1>This is my first app ever and I'm super excited to become a coder</h1>
 
+<%= simple_form_for Idea.new do |f| %>
+  <%= f.input :description %>
+  <%= f.input :author %>
+  <%= f.submit 'Submit', class: 'btn btn-primary'  %>
+<% end %>
+
 <div class="panel panel-default">
   <div class="panel-body">
     Basic panel example
