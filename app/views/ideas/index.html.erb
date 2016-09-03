@@ -51,4 +51,9 @@
        <%= link_to 'Delete', idea_path(idea), method: :delete, class: 'btn btn-sm btn-danger', data: {confirm: "Are you sure?"} %>
     </div>
   </div>
+<%= will_paginate @ideas %>
+<div class = "text-center">
+  <%= will_paginate @ideas %>
+</div>
+
 <% end %>
