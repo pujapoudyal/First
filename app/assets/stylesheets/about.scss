@@ -1,0 +1,38 @@
+html,
+body {
+    background-color: lightblue;
+
+
+h1 {
+    color: purple;
+    text-align: center;
+    font-size: 30px;
+    padding: 30px 10;
+    border: 1px green;
+
+}
+  h2{
+    color: cyan;
+    text-align: center;
+    font-size: 25px;
+    padding: 30px 10;
+    border: 1px green;
+
+  }
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+    padding: 30px 20px 30px 50px;
+    color: black
+}
+
+p.italic {
+    font-style: italic;
+}
+
+p.normal {
+    font-weight: normal;
+}
+
+}
